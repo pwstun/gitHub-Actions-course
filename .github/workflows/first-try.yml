@@ -1,0 +1,10 @@
+name: first test
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+     - name: Run a one-line script
+       run: echo "Hello World!"
+     - name: run second  one-line script
+       run: echo "alright bye"
